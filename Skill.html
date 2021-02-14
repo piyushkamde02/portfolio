@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+   <link rel="stylesheet" type="text/css" href="progresscircle.css">
+</head>
+<body>
+   <div class="wrapper">
+      <h2>Our Skills</h2>
+ 
+   <div class="skills-area">
+      <div class="single-skill">
+          <div class="circlechart" data-percentage="90"> HTML </div> 
+      </div>
+      <div class="single-skill">
+          <div class="circlechart" data-percentage="80"> CSS </div> 
+      </div>
+      <div class="single-skill">
+          <div class="circlechart" data-percentage="60"> JAVASCRIPT </div> 
+      </div>
+      <div class="single-skill"><br><br><br>
+          <div class="circlechart" data-percentage="70"> JAVA </div> 
+      </div>
+      <div class="single-skill"><br><br><br>
+          <div class="circlechart" data-percentage="80"> PHP </div> 
+      </div>
+      <div class="single-skill"><br><br><br>
+          <div class="circlechart" data-percentage="75"> MYSQL </div> 
+      </div>
+   </div>
+  
+
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="progresscircle.js"></script>
+   <script type="text/javascript">
+      $(function() {
+         $('.circlechart').circlechart();
+      });
+   </script>
+</body>
+</html>

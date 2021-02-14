@@ -1,0 +1,187 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="MyCss.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" type="text/css" href="progresscircle.css">
+    <script src = "https://maps.googleapis.com/maps/api/js"></script>
+      
+      <script>
+         function loadMap() {
+            
+            var mapOptions = {
+               center:new google.maps.LatLng(22.7130, 75.9007),
+               zoom:7
+            }
+                
+            var map = new google.maps.Map(document.getElementById("sample"),mapOptions);
+            
+            var marker = new google.maps.Marker({
+               position: new google.maps.LatLng(22.7130, 75.9007),
+               map: map,
+            });
+         }
+      </script>
+</head>
+<body>
+	<div class="header">
+        <div class="topHeader">
+		  	<img src="logo.jpg" width="150px" height="100px">
+		 </div>
+         <img src="first.jpg" alt="Snow" width="100%" height="650px">
+         <div class="menu">
+          <ul>
+        	<li><a href="#home">Home</a></li>
+        	<li><a href="#About us">About Me</a></li>
+        	<li><a href="#Skills">Skills</a></li>
+        	<li><a href="#Education">Education</a></li>
+        	<li><a href="#Projects">Projects</a></li>
+        	<li><a href="#Contact">Contact</a></li>
+            <li><a href="cv.docx">Download CV</a></li>
+          </ul>
+         </div>
+         <div class="center">
+         	<center><img src="myphoto1.jpg" width="180px"></center>
+            <h2><center>Hi, I'm Piyush Kamde</center></h2>
+            <h4><center>Web Developer, Java Developer</center></h4>
+         </div>
+	</div>
+    <div class="AboutMe" id="About us">
+        <h2><center><br><br><br><br>About Me</center></h2>
+        <br><br><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hello, I am PIYUSH KAMDE. I am a student of Computer Engineering in Shree<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; G. S. Institute Of Technology & Science, Indore(M.P.). I completed my diploma<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in Inforamation Technology (I.T.) from s.v. polytechnic college, Bhopal(M.P.). I<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; am intrested in software development as well as website development. I worked<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on html, css, javascript, php, mysql, java. I also familier with compitative coding<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on Hacker rank, coding ninjas. I am very much intested in working with live proj-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ects. I keep updated myself with latest technologies and software. And when I <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; want to relax my mind that time I like to play volley ball and bad minton.</p>
+        <div class="aboutImg"><img src="about.jpg" width="220px" height="200px"></div>
+        <h3><a href="cv.docx">Download My CV</a></h3>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="skills" id="Skills">
+        <br><br><h2><center>SKILLS</center></h2>
+                    <div class="skillsMain">
+                    <div class="wrapper">
+                            
+               <div class="skills-area">
+                  <div class="single-skill">
+                      <div class="circlechart" data-percentage="90"> HTML </div> 
+                  </div>
+                  <div class="single-skill">
+                      <div class="circlechart" data-percentage="80"> CSS </div> 
+                  </div>
+                  <div class="single-skill">
+                      <div class="circlechart" data-percentage="60"> JAVASCRIPT </div> 
+                  </div>
+                  <div class="single-skill"><br><br><br>
+                      <div class="circlechart" data-percentage="70"> JAVA </div> 
+                  </div>
+                  <div class="single-skill"><br><br><br>
+                      <div class="circlechart" data-percentage="80"> PHP </div> 
+                  </div>
+                  <div class="single-skill"><br><br><br>
+                      <div class="circlechart" data-percentage="75"> MYSQL </div> 
+                  </div>
+               </div>
+              
+
+               </div>
+               <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+               <script src="progresscircle.js"></script>
+               <script type="text/javascript">
+                  $(function() {
+                     $('.circlechart').circlechart();
+                  });
+               </script>
+          
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="Education" id="Education">
+        <h2>EDUCATION</h2>
+        <img src="education.jpg" width="100%" height="650px" >
+        <div class="btech"><h3><center>Bechelor's of Technology</center></h3>
+            <h4><center>2019-2022</center></h4>
+            <h4>College Name :- Shree G. S. Seksariya Institute Of Technology & Science, Indore</h4>
+            <h4>Branch :- Computer Engineering</h4>
+            <h4>University :- Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal</h4>
+            <h4>CGPA :- 6.8</h4>
+        </div>
+        <div class="diploma"><h3><center>Polytechnic</center></h3>
+            <h4><center>2016-2019</center></h4>
+            <h4>College Name :- S. V. Polytechnic College, Bhopal</h4>
+            <h4>Branch :- Information Technology</h4>
+            <h4>University :- Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal</h4>
+            <h4>CGPA :- 8.56</h4>
+        </div>
+        <div class="tenth"><h3><center>10th Standard</center></h3>
+            <h4><center>2015-16</center></h4>
+            <h4>School Name :- Subhash Montessori Public School, Sausar</h4>
+            <h4>Class :- 10th Standard</h4>
+            <h4>Board :- C.B.S.E</h4>
+            <h4>CGPA :- 8.2</h4>
+        </div>
+    </div>
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+       <div class="Projects" id="Projects">
+        <h2><center>PROJECTS</center></h2>
+        <img src="projects.jpg" height="650px" width="100%">
+        <div class="Project1">
+            <br><br><br><br>
+            <h4><center>PROJECT-I</center></h4>
+            <h4>Project Title :- OTP based Authentication in Java</h4>
+            <h4>Project guided by :- Mr. Gajendra Kumar Ahirwar</h4>
+            <h4>Language :- Java, MySQL</h4>
+            <h4>Description :- OTP based authentication is a java based software project. This software help to achieve two way authentication by sending OTP for other software. An OTP will send on registered mobile number of a registered candidate.</h4>
+        </div>
+        <div class="Project2">
+            <br><br><br><br>
+            <h4><center>PROJECT-II</center></h4>
+            <h4>Project Title :- Alumini App</h4>
+            <h4>Project guided by :- Mr. S. K. Vatke</h4>
+            <h4>Languages :- HTML, CSS, PHP, MySQL</h4>
+            <h4>Description :- Alumini App is a PHP based web application. It is used to make the connection between college and alunini of that College.</h4>
+        </div>
+        <div class="Project3">
+             <br><br><br><br>
+             <h4><center>PROJECT-III</center></h4>
+            <h4>Project Title :- I card Generator System</h4>
+            <h4>Project guided by :- Mr. Vinay Yadav</h4>
+            <h4>Languages :- Java, MySQL</h4>
+            <h4>Description :- I card Generator System is a  Java based software to generator I-Card for college students. In this software user request for I-card and college authority issues I-Card.</h4>
+        </div>
+     </div>
+     <div class="Contact" id="Contact"><br><br><br>
+         <h2><center>CONTACT</center></h2>
+         <div class="ContactLeft"><br><br><br> 
+            <center><form action="/action_page.php">
+            <label for="fname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name:</label>
+            <input type="text" id="name" name="fname"><br><br>
+            <label for="lname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail:</label>
+            <input type="text" id="email" name="lname" ><br><br>
+            <label for="lname">Contact Number:</label>
+            <input type="text" id="email" name="Contact" ><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Message: <textarea id="textarea" name="w3review" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+            </form></center> 
+         </div>
+         <div class="ContactRight">
+             <h4>LOCATION :- </h4>
+             <a href="https://goo.gl/maps/HxWkXDLqogW1oWV19"><h4><img src ="location.jpg" height="25" width="30">  Indore, India</h4></a>
+             <h4>I AM SOCIAL :- </h4>
+             <a href="https://www.facebook.com/piyush.kamde.50"><h5><img src="facebook.png" height="25px" width="35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facebook</h5></a>
+             <a href="https://www.instagram.com/piyushkamde6/"><h5><img src="insta.png" height="25px" width="35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instagram</h5></a>
+             <a href="https://www.linkedin.com/in/piyush-kamde/"><h5><img src="linkedin.png" height="25px" width="35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linkedin</h5></a>
+             <a href="https://twitter.com/KamdePiyush"><h5><img src="twitter.png" height="25px" width="35px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twitter</h5></a>
+        </div>
+        
+    </div>
+     <body onload = "loadMap()" width="100%">
+      <div id = "sample" style = "width:100%; height:450px; top:3850px; position: absolute;"></div>
+      <div class="footer">
+        <center><br><br>
+          <a href="https://www.linkedin.com/in/piyush-kamde/"><img src="linkedin.png" height="30px" width="35px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/piyushkamde02"><img src="github.png" height="30px" width="35px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://twitter.com/KamdePiyush"><img src="twitter.png" height="30px" width="35px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.facebook.com/piyush.kamde.50"><img src="facebook.png" height="40px" width="45px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.instagram.com/piyushkamde6/"><img src="insta.png" height="35px" width="45px"></a>&nbsp;&nbsp;
+        </center>
+      </div>
+   </body>
+</body>
+</html>

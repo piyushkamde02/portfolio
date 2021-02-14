@@ -1,0 +1,242 @@
+.header{
+	width: 100%;
+	height: 650px;  
+  background-color: black; 
+}
+.topHeader{
+   position: absolute;   
+   top: 20px;
+   left: 20px;
+}
+.menu{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  text-align: right;
+  list-style-type: none;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111111;
+  top:20px;
+  right:20px;
+  height:80p#000080;x
+  width :100%;
+  position: absolute;
+}
+
+.menu ul li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.menu li a:hover {
+  background-color: #333333;
+}
+.logo{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.center{
+	position: absolute;
+	top: 230px;
+    left: 518px;
+}
+.center img{
+    border-radius: 50%;
+    width: 190px;
+    height: 210px;
+}
+.center h2{
+	font-family: "Arial", Helvetica, sans-serif;
+	text-shadow: 2px 2px #F0F8FF;
+}
+.center h4{
+	font-family: "Arial", Helvetica, sans-serif;
+	text-shadow: 2px 2px #F0F8FF;
+}
+.AboutMe{
+	background-color: black;
+	height:710px;
+	top: 650px;
+	width:100%;
+	position:absolute;
+	color: white;
+}
+.AboutMe h3 a{
+  //overflow: hidden;
+  text-decoration:none;
+  color:white;
+  background-color: #111111;
+  top:445px;
+  right:235px;
+  height:80px
+  width :90px;
+  position: absolute;
+}
+
+.AboutMe h3 :hover {
+  background-color: #333333;
+  text-decoration:none;
+  color:white;
+}
+.aboutImg{
+	position: absolute;
+	top:230px;
+	left:930px;
+}
+
+.skills{
+	position: absolute;
+	background-color: f0ffff;
+	height:730px;
+	width:100%;
+	top:1300px;
+	color: black;
+
+}
+
+.Education{
+	position: absolute;
+	color: black;
+	top: 2000px;
+  width: 100%;
+}
+.Education h2{
+	color: white;
+}
+.btech{
+	position: absolute;
+	//-moz-border-radius: 50px/50px;
+  //-webkit-border-radius: 50px 50px;
+  border-radius: 100px/100px;
+  border: solid 11px #00ff43;
+  width: 320px;
+  height: 400px;
+  left: 60px;
+  top:130px;
+}
+.diploma{
+	position: absolute;
+	//-moz-border-radius: 50px/50px;
+  //-webkit-border-radius: 50px 50px;
+  border-radius: 100px/100px;
+  border: solid 11px #00a1ff;
+  width: 320px;
+  height: 400px;
+  left: 440px;
+  top:130px;
+}
+.tenth{
+	position: absolute;
+	//-moz-border-radius: 50px/50px;
+  //-webkit-border-radius: 50px 50px;
+  border-radius: 100px/100px;
+  border: solid 11px #ff0043;
+  width: 320px;
+  height: 400px;
+  left: 820px;
+  top:130px;
+
+}
+.Education h2{
+    position: absolute;
+    color: black;
+    left:550px;
+    top:30px;
+}
+.Education img{
+  width: 100%;
+}
+.Projects{
+	position: absolute;
+    height:690px;
+	width:100%;
+	top: 2650px
+}
+.Projects h2{
+	position: absolute;
+	color:white;
+	left: 560px;
+}
+.project1{
+	position: absolute;
+	left: 10px;
+	top: 50px;
+	color: white;
+	border-radius: 100px/100px;
+    width: 290px;
+    height: 400px;
+}
+.project2{
+	position: absolute;
+	left: 320px;
+	top: 50px;
+	color: white;
+	border-radius: 100px/100px;
+    width: 290px;
+    height: 400px;
+}
+.project3{
+	position: absolute;
+	left: 630px;
+	top: 50px;
+	color: white;
+	border-radius: 100px/100px;
+    width: 290px;
+    height: 400px;
+}
+.Contact{
+	background-color: white;
+	top:3300px;
+	height:550px;
+	width:100%;
+	color: black;
+	position: absolute;
+	background-color: f0ffff;
+}
+.ContactLeft{
+   width: 700px;
+   background-color: f0ffff;
+   font :black;
+}
+.ContactRight{
+   background-color: f0fff;
+   top: 150px;
+   width: 300px;
+   left: 850px;
+   position: absolute;
+}
+.ContactRight a:link{
+   text-decoration: none;
+   color:#87ceeb;
+}
+.ContactRight h5{
+   text-decoration: none;
+   color: #000080;
+}
+.ContactRight h4{
+	color: #000080;
+}
+.footer{
+	height: 100px;
+	top:4300px;
+	background-color: black;
+	width: 100%;
+	position:absolute;
+}
